@@ -58,6 +58,7 @@ WHERE UsuarioId = 1
 
 --DQL
 SELECT * FROM Habilidades
+ORDER BY HabilidadeId
 
 --JOIN em 2 tabelas
 SELECT P.NomePersonagem, C.NomeClasse 'Classe', C.Descricao FROM Personagens AS P JOIN Classes C
